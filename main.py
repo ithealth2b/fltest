@@ -1,5 +1,4 @@
 from flask import Flask
-
 app = Flask(__name__)
 
 
@@ -14,6 +13,7 @@ def newword() -> str:
 
 
 def main():
+    print('start flask service')
     app.run(host='0.0.0.0', port=80)
 
 
