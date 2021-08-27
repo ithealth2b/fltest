@@ -1,6 +1,5 @@
 from flask import Flask
 app = Flask(__name__)
-'''new feat2'''
 
 @app.route('/')
 def hello():
@@ -17,5 +16,4 @@ def main():
 
 
 if __name__ == '__main__':
-    ''' hal '''
     main()
