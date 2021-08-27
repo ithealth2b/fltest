@@ -12,7 +12,12 @@ def newword() -> str:
     return 'new word'
 
 
+def add(a,b):
+    return a+b
+
+
 def main():
+    x = add(1,2)
     print('start flask service')
     app.run(host='0.0.0.0', port=80)
 
