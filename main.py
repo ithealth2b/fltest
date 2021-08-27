@@ -1,7 +1,5 @@
 from flask import Flask
-'''
-    add feature branch
-'''
+
 app = Flask(__name__)
 
 
@@ -18,10 +16,6 @@ def newword() -> str:
 def main():
     app.run(host='0.0.0.0', port=80)
 
-
-'''
-    addition commit
-'''
 
 if __name__ == '__main__':
     ''' hal '''
