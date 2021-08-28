@@ -12,6 +12,7 @@ def newword() -> str:
 '''
     f3
     add
+    f3 new  add
 '''
 
 def main():
