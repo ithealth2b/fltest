@@ -9,14 +9,13 @@ def hello():
 @app.route('/new')
 def newword() -> str:
     return 'new word'
-
+'''
+    f3
+'''
 
 def main():
     app.run(host='0.0.0.0', port=80)
 
-'''
-    feat3 addit
-    new data
-'''
+
 if __name__ == '__main__':
     main()
