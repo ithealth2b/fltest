@@ -11,6 +11,7 @@ def newword() -> str:
     return 'new word'
 '''
     f3
+    add
 '''
 
 def main():
